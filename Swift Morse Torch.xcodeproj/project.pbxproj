@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF76DA3C1941116100D04851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DA3B1941116100D04851 /* AppDelegate.swift */; };
+		EF76DA3E1941116100D04851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DA3D1941116100D04851 /* ViewController.swift */; };
+		EF76DA411941116100D04851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF76DA3F1941116100D04851 /* Main.storyboard */; };
+		EF76DA431941116100D04851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF76DA421941116100D04851 /* Images.xcassets */; };
+		EF76DA4F1941116200D04851 /* Swift_Morse_TorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DA4E1941116200D04851 /* Swift_Morse_TorchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF76DA491941116200D04851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF76DA2E1941116100D04851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF76DA351941116100D04851;
+			remoteInfo = "Swift Morse Torch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF76DA361941116100D04851 /* Swift Morse Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Morse Torch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF76DA3A1941116100D04851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF76DA3B1941116100D04851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF76DA3D1941116100D04851 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF76DA401941116100D04851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF76DA421941116100D04851 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF76DA481941116200D04851 /* Swift Morse TorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Morse TorchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF76DA4D1941116200D04851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF76DA4E1941116200D04851 /* Swift_Morse_TorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Morse_TorchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF76DA331941116100D04851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF76DA451941116200D04851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF76DA2D1941116100D04851 = {
+			isa = PBXGroup;
+			children = (
+				EF76DA381941116100D04851 /* Swift Morse Torch */,
+				EF76DA4B1941116200D04851 /* Swift Morse TorchTests */,
+				EF76DA371941116100D04851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF76DA371941116100D04851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DA361941116100D04851 /* Swift Morse Torch.app */,
+				EF76DA481941116200D04851 /* Swift Morse TorchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF76DA381941116100D04851 /* Swift Morse Torch */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DA3B1941116100D04851 /* AppDelegate.swift */,
+				EF76DA3D1941116100D04851 /* ViewController.swift */,
+				EF76DA3F1941116100D04851 /* Main.storyboard */,
+				EF76DA421941116100D04851 /* Images.xcassets */,
+				EF76DA391941116100D04851 /* Supporting Files */,
+			);
+			path = "Swift Morse Torch";
+			sourceTree = "<group>";
+		};
+		EF76DA391941116100D04851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DA3A1941116100D04851 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF76DA4B1941116200D04851 /* Swift Morse TorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DA4E1941116200D04851 /* Swift_Morse_TorchTests.swift */,
+				EF76DA4C1941116200D04851 /* Supporting Files */,
+			);
+			path = "Swift Morse TorchTests";
+			sourceTree = "<group>";
+		};
+		EF76DA4C1941116200D04851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF76DA4D1941116200D04851 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF76DA351941116100D04851 /* Swift Morse Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF76DA521941116200D04851 /* Build configuration list for PBXNativeTarget "Swift Morse Torch" */;
+			buildPhases = (
+				EF76DA321941116100D04851 /* Sources */,
+				EF76DA331941116100D04851 /* Frameworks */,
+				EF76DA341941116100D04851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Morse Torch";
+			productName = "Swift Morse Torch";
+			productReference = EF76DA361941116100D04851 /* Swift Morse Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF76DA471941116200D04851 /* Swift Morse TorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF76DA551941116200D04851 /* Build configuration list for PBXNativeTarget "Swift Morse TorchTests" */;
+			buildPhases = (
+				EF76DA441941116200D04851 /* Sources */,
+				EF76DA451941116200D04851 /* Frameworks */,
+				EF76DA461941116200D04851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF76DA4A1941116200D04851 /* PBXTargetDependency */,
+			);
+			name = "Swift Morse TorchTests";
+			productName = "Swift Morse TorchTests";
+			productReference = EF76DA481941116200D04851 /* Swift Morse TorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF76DA2E1941116100D04851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EF76DA351941116100D04851 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF76DA471941116200D04851 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EF76DA351941116100D04851;
+					};
+				};
+			};
+			buildConfigurationList = EF76DA311941116100D04851 /* Build configuration list for PBXProject "Swift Morse Torch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF76DA2D1941116100D04851;
+			productRefGroup = EF76DA371941116100D04851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF76DA351941116100D04851 /* Swift Morse Torch */,
+				EF76DA471941116200D04851 /* Swift Morse TorchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF76DA341941116100D04851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76DA411941116100D04851 /* Main.storyboard in Resources */,
+				EF76DA431941116100D04851 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF76DA461941116200D04851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF76DA321941116100D04851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76DA3E1941116100D04851 /* ViewController.swift in Sources */,
+				EF76DA3C1941116100D04851 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF76DA441941116200D04851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76DA4F1941116200D04851 /* Swift_Morse_TorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF76DA4A1941116200D04851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF76DA351941116100D04851 /* Swift Morse Torch */;
+			targetProxy = EF76DA491941116200D04851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF76DA3F1941116100D04851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF76DA401941116100D04851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF76DA501941116200D04851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF76DA511941116200D04851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF76DA531941116200D04851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Swift Morse Torch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF76DA541941116200D04851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Swift Morse Torch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF76DA561941116200D04851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Morse Torch.app/Swift Morse Torch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Morse TorchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EF76DA571941116200D04851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Morse Torch.app/Swift Morse Torch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift Morse TorchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF76DA311941116100D04851 /* Build configuration list for PBXProject "Swift Morse Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF76DA501941116200D04851 /* Debug */,
+				EF76DA511941116200D04851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF76DA521941116200D04851 /* Build configuration list for PBXNativeTarget "Swift Morse Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF76DA531941116200D04851 /* Debug */,
+				EF76DA541941116200D04851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF76DA551941116200D04851 /* Build configuration list for PBXNativeTarget "Swift Morse TorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF76DA561941116200D04851 /* Debug */,
+				EF76DA571941116200D04851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF76DA2E1941116100D04851 /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2633281948EEBB001A0F2A /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2633271948EEBB001A0F2A /* MorseCode.swift */; };
 		EF76DA3C1941116100D04851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DA3B1941116100D04851 /* AppDelegate.swift */; };
 		EF76DA3E1941116100D04851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF76DA3D1941116100D04851 /* ViewController.swift */; };
 		EF76DA411941116100D04851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF76DA3F1941116100D04851 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF2633271948EEBB001A0F2A /* MorseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
 		EF76DA361941116100D04851 /* Swift Morse Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Morse Torch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF76DA3A1941116100D04851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF76DA3B1941116100D04851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				EF76DA3F1941116100D04851 /* Main.storyboard */,
 				EF76DA421941116100D04851 /* Images.xcassets */,
 				EF76DA391941116100D04851 /* Supporting Files */,
+				EF2633271948EEBB001A0F2A /* MorseCode.swift */,
 			);
 			path = "Swift Morse Torch";
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				EF76DA3E1941116100D04851 /* ViewController.swift in Sources */,
 				EF76DA3C1941116100D04851 /* AppDelegate.swift in Sources */,
+				EF2633281948EEBB001A0F2A /* MorseCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				EF76DA541941116200D04851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF76DA551941116200D04851 /* Build configuration list for PBXNativeTarget "Swift Morse TorchTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				EF76DA571941116200D04851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

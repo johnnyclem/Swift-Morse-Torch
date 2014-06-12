@@ -16,7 +16,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textFieldTextChanged:", name:UITextFieldTextDidChangeNotification, object: nil)
+        let notificationCenter = NSNotificationCenter.defaultCenter()
+        let mainQueue = NSOperationQueue.mainQueue()
+
+        var observer = notificationCenter.addObserverForName(UITextFieldTextDidChangeNotification, object: nil, queue: mainQueue) { _ in
+                self.sendButton.enabled = self.messageField.text.utf16count > 0
+        }
+    }
+    
+    override func viewWillUnload() {
+        super.viewWillUnload()
+        
+        let notificationCenter = NSNotificationCenter.defaultCenter()
+        notificationCenter.removeObserver(self, name: UITextFieldTextDidChangeNotification, object: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,14 +37,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func convertAndSend(sender : AnyObject) {
-        let morseSymbols = messageField.text.symbolForLetter()
-        println("first symbol: \(morseSymbols)")
+//        let morseSymbols = messageField.text.symbolForLetter()
+//        println("first symbol: \(morseSymbols)")
     }
-    
-    func textFieldTextChanged(sender : AnyObject) {
-        sendButton.enabled = messageField.text.utf16count > 0
-    }
-    
 
 }
 
